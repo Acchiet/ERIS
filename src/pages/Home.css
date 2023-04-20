@@ -1,0 +1,106 @@
+
+
+.home {
+  color: white;
+  
+  min-height: 100vh; 
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh
+}
+
+.players-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.player {
+  width: 20%;
+  margin: 2%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+
+.player img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+} 
+
+.player p {
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+}
+
+.logozinha{
+  display: flex;
+  width: 400px;
+  height: 400px;
+}
+
+.search-container {
+  margin-top: 10px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) { /* Ajuste o valor da largura máxima conforme necessário */
+  .home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .player {
+    flex-basis: calc(33.33% - 10px); /* Ajuste o valor da margem conforme necessário */
+    margin: 5px;
+  }
+
+  .players-container .player img {
+    width: 100%;
+    max-width: 200px; /* Defina o tamanho máximo que você deseja para a imagem */
+    height: auto;
+  }
+
+  .player p {
+    font-size: 14px;
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+}
