@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Acchiet/ERIS/static/css/main.d508784d.css",
+    "main.js": "/Acchiet/ERIS/static/js/main.88a267b2.js",
+    "index.html": "/Acchiet/ERIS/index.html",
+    "main.d508784d.css.map": "/Acchiet/ERIS/static/css/main.d508784d.css.map",
+    "main.88a267b2.js.map": "/Acchiet/ERIS/static/js/main.88a267b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d508784d.css",
+    "static/js/main.88a267b2.js"
+  ]
+}
